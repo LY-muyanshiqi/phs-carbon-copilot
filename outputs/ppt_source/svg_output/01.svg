@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" lang="zh-CN" font-family="Microsoft YaHei, Arial, PingFang SC, sans-serif" font-size="28" data-pptx-page-role="cover">
+  <rect x="0" y="0" width="1280" height="720" fill="#0E2438"/>
+  <circle cx="1130" cy="110" r="250" fill="#14344C"/>
+  <circle cx="1180" cy="640" r="190" fill="#123047"/>
+  <path d="M0 560 L1280 470 L1280 720 L0 720 Z" fill="#102B41"/>
+  <g id="cover-main" data-pptx-bounds="72 100 1136 520">
+    <text x="80" y="150" font-size="17" fill="#8FD3C7" letter-spacing="2">“超算赋能·智创西理工” AI 应用创新暨科研智能体共创活动</text>
+    <text x="80" y="252" font-size="72" font-weight="bold" fill="#FFFFFF">蓄能碳效参谋</text>
+    <text x="80" y="310" font-size="27" fill="#CFE3EA">会算、会解释、会出报告的抽水蓄能减碳核算智能体</text>
+    <line x1="80" y1="350" x2="280" y2="350" stroke="#2A9D8F" stroke-width="6"/>
+    <text x="80" y="398" font-size="19" fill="#9FB8C6">把 MATLAB 模型变成可执行、可追溯、可解释的智能体</text>
+    <text x="80" y="466" font-size="46" font-weight="bold" fill="#4ECDB4">89.79</text>
+    <text x="80" y="500" font-size="18" fill="#B9CED8">万吨 / 年净减碳</text>
+    <line x1="320" y1="432" x2="320" y2="510" stroke="#2A4A60" stroke-width="2"/>
+    <text x="360" y="466" font-size="46" font-weight="bold" fill="#FFFFFF">20/20</text>
+    <text x="360" y="500" font-size="18" fill="#B9CED8">自动化评测通过</text>
+    <line x1="610" y1="432" x2="610" y2="510" stroke="#2A4A60" stroke-width="2"/>
+    <text x="650" y="466" font-size="46" font-weight="bold" fill="#FFFFFF">0.12 s</text>
+    <text x="650" y="500" font-size="18" fill="#B9CED8">全年核算耗时</text>
+    <text x="80" y="570" font-size="18" fill="#8FD3C7">实践报告与答辩 · 2026.11</text>
+  </g>
+  <g id="cover-footer" data-pptx-bounds="72 640 1136 36" data-pptx-role="footer">
+    <text x="80" y="668" font-size="16" fill="#7F9AAA">项目组 · 水利水电工程</text>
+    <text x="1200" y="668" font-size="16" fill="#7F9AAA" text-anchor="end">软件著作权 2026R11L3004891</text>
+  </g>
+</svg>

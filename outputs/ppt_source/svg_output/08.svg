@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" lang="zh-CN" font-family="Microsoft YaHei, Arial, PingFang SC, sans-serif" font-size="28" data-pptx-page-role="content">
+  <rect x="0" y="0" width="1280" height="720" fill="#F6F9FA"/>
+  <rect x="0" y="0" width="1280" height="8" fill="#2A9D8F"/>
+  <g id="header" data-pptx-bounds="64 40 1152 52" data-pptx-role="header">
+    <text x="64" y="84" font-size="16" fill="#2A9D8F" letter-spacing="2">07 / 敏感性</text>
+    <text x="1216" y="84" font-size="14" fill="#8A9AA8" text-anchor="end" letter-spacing="2">SENSITIVITY</text>
+  </g>
+  <g id="body" data-pptx-bounds="64 120 1152 520">
+    <text x="64" y="174" font-size="42" font-weight="bold" fill="#0F2740">参数不能脱离调度单独调</text>
+    <text x="64" y="212" font-size="20" fill="#5E6B78">固定 NSGA-II 调度轨迹，只改一个参数：结果围绕原优化点明显下降。</text>
+    <text x="1216" y="158" font-size="14" fill="#C0503A" text-anchor="end">固定轨迹 · 单因素 · 非重优化</text>
+    <image href="../assets/fig_sensitivity.png" x="64" y="240" width="1080" height="379" preserveAspectRatio="xMidYMid meet"/>
+    <text x="64" y="648" font-size="16" fill="#2A9D8F">结论：配置必须联动重优化，不能拿单一参数外推。</text>
+  </g>
+  <g id="footer" data-pptx-bounds="64 660 1152 30" data-pptx-role="footer">
+    <text x="64" y="682" font-size="14" fill="#8A9AA8">蓄能碳效参谋 · 实践报告</text>
+    <text x="1216" y="682" font-size="14" fill="#8A9AA8" text-anchor="end">08 / 10</text>
+  </g>
+</svg>

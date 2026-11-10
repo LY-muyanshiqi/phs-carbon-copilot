@@ -1,0 +1,14 @@
+data/raw/
+data/local/
+
+# 中间产物与审计文件（可用脚本复现，不随仓库发布）
+outputs/audit/
+outputs/ppt_preview/
+outputs/ppt_source/exports/
+outputs/ppt_source/validation/
+outputs/audit_year.json
+outputs/demo_year.json
+
+__pycache__/
+*.pyc
+.DS_Store

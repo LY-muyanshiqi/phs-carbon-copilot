@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="utf-8">
+<title>抽水蓄能减碳核算报告</title>
+<style>
+body{font-family:"Microsoft YaHei",Arial,sans-serif;max-width:900px;margin:40px auto;padding:0 24px;color:#10243A;line-height:1.75}
+h1{font-size:28px;border-bottom:3px solid #2A9D8F;padding-bottom:12px}
+h2{font-size:20px;margin-top:32px;color:#10243A}
+.kpi{display:flex;gap:16px;margin:20px 0}
+.kpi div{flex:1;background:#F4F7FA;border-left:4px solid #2A9D8F;padding:14px 16px}
+.kpi b{display:block;font-size:24px;color:#2A9D8F}
+table{border-collapse:collapse;width:100%;margin:12px 0;font-size:14px}
+th,td{border:1px solid #D8E1EA;padding:8px 10px;text-align:right}
+th:first-child,td:first-child{text-align:left}
+th{background:#10243A;color:#fff}
+.note{color:#6B7C93;font-size:13px}
+</style></head><body>
+<h1>抽水蓄能减碳核算报告</h1>
+<p class="note">模型版本 1.0.0 ｜ 核算 1 天 ｜ 蓄能碳效参谋</p>
+<div class="kpi">
+<div><span>减碳量</span><b>9,547.8 t</b><span>0.9548 万吨</span></div>
+<div><span>减排率</span><b>2.30%</b><span>相对无抽蓄情景</span></div>
+<div><span>有抽蓄排放</span><b>405,702.9 t</b><span>无抽蓄 415,250.8 t</span></div>
+</div>
+<h2>一、核算口径</h2>
+<table><tr><th>参数</th><th>取值</th><th>单位</th></tr><tr><td>抽蓄装机</td><td>1400</td><td>MW</td></tr><tr><td>蓄能时长</td><td>4</td><td>h</td></tr><tr><td>抽发综合效率</td><td>0.75</td><td>—</td></tr><tr><td>最小出力比例</td><td>0.2</td><td>—</td></tr><tr><td>碳氧化率</td><td>0.99</td><td>—</td></tr><tr><td>收到基含碳量</td><td>0.7</td><td>—</td></tr><tr><td>深度调峰煤耗</td><td>370</td><td>g/kWh</td></tr><tr><td>中度调峰煤耗</td><td>330</td><td>g/kWh</td></tr><tr><td>基荷煤耗</td><td>300</td><td>g/kWh</td></tr></table>
+<h2>二、分日结果</h2>
+<table><tr><th>日期</th><th>有抽蓄排放（t）</th><th>无抽蓄排放（t）</th><th>减碳（t）</th><th>减排率</th></tr><tr><td>2026-11-17</td><td>405,702.9</td><td>415,250.8</td><td>9,547.8</td><td>2.30%</td></tr></table>
+<h2>三、假设与提示</h2>
+<ul><li>1 h 时间步长；功率 MW；煤耗与排放强度 g/kWh；排放量 kg。</li><li>有抽蓄场景：火电 = 负荷 - 水/风/光 - 抽蓄（正发电、负抽水）。</li><li>无抽蓄场景：火电 = 负荷 - 水/风/光。</li><li>抽蓄效率默认 0.75；低于 20% 额定功率的动作按 0 处理；SOC 首末均为 0.5。</li><li>未提供 SOC 时使用启发式调度，不等同于 NSGA-II 最优解。</li></ul>
+<p><b>警告：</b></p><ul><li>无</li></ul>
+<h2>四、边界</h2>
+<p>本结果用于方案对比与教学演示，不构成电网调度指令或碳资产签发依据。</p>
+<hr><p class="note">本报告由蓄能碳效参谋自动生成；计算数值来自确定性核算工具。</p>
+</body></html>

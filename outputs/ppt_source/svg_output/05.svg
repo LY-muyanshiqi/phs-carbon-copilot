@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" lang="zh-CN" font-family="Microsoft YaHei, Arial, PingFang SC, sans-serif" font-size="28" data-pptx-page-role="content">
+  <rect x="0" y="0" width="1280" height="720" fill="#F6F9FA"/>
+  <rect x="0" y="0" width="1280" height="8" fill="#2A9D8F"/>
+  <g id="header" data-pptx-bounds="64 40 1152 52" data-pptx-role="header">
+    <text x="64" y="84" font-size="16" fill="#2A9D8F" letter-spacing="2">04 / DEMO</text>
+    <text x="1216" y="84" font-size="14" fill="#8A9AA8" text-anchor="end" letter-spacing="2">ONE CONVERSATION</text>
+  </g>
+  <g id="body" data-pptx-bounds="64 120 1152 520">
+    <text x="64" y="174" font-size="44" font-weight="bold" fill="#0F2740">一句话，把参数问全，把结果算准</text>
+    <text x="64" y="212" font-size="20" fill="#5E6B78">从一句自然语言，到一组可复核的数字。</text>
+    <rect x="64" y="230" width="720" height="370" rx="12" fill="#FFFFFF" stroke="#D9E2E8" stroke-width="2"/>
+    <rect x="88" y="252" width="520" height="54" rx="10" fill="#E6F4F1"/>
+    <text x="104" y="285" font-size="17" fill="#0F2740">帮我算 2026-11-17，1400 MW、4 小时抽蓄的减碳量。</text>
+    <rect x="88" y="322" width="650" height="76" rx="10" fill="#F1F5F7"/>
+    <text x="104" y="348" font-size="16" fill="#33475B">可以。还需要 24 点负荷、水电、风电、光伏；有 SOC 吗？<tspan x="104" dy="24">没有的话我用低谷抽水/高峰发电启发式，并标注“非最优”。</tspan></text>
+    <rect x="88" y="414" width="420" height="50" rx="10" fill="#E6F4F1"/>
+    <text x="104" y="445" font-size="17" fill="#0F2740">用示例数据，没有 SOC。</text>
+    <rect x="88" y="480" width="650" height="86" rx="10" fill="#F1F5F7"/>
+    <text x="104" y="510" font-size="16" fill="#33475B">已核算：减碳 9,547.843 t，减排率 2.2993%。<tspan x="104" dy="24">需要我继续出报告吗？</tspan></text>
+    <g id="result-card">
+      <rect x="820" y="230" width="396" height="370" rx="12" fill="#0E2438"/>
+      <text x="844" y="270" font-size="16" fill="#4ECDB4" letter-spacing="2">核算结果</text>
+      <text x="844" y="330" font-size="36" font-weight="bold" fill="#FFFFFF">9,547.843 t</text>
+      <text x="844" y="358" font-size="15" fill="#B9CED8">单日减碳</text>
+      <line x1="844" y1="380" x2="1192" y2="380" stroke="#2A4A60" stroke-width="2"/>
+      <text x="844" y="422" font-size="32" font-weight="bold" fill="#4ECDB4">2.2993%</text>
+      <text x="844" y="448" font-size="15" fill="#B9CED8">单日减排率</text>
+      <line x1="844" y1="470" x2="1192" y2="470" stroke="#2A4A60" stroke-width="2"/>
+      <text x="844" y="506" font-size="14" fill="#B9CED8">有抽蓄排放</text>
+      <text x="844" y="534" font-size="20" fill="#FFFFFF">405,702.9 t</text>
+      <text x="844" y="562" font-size="14" fill="#B9CED8">无抽蓄排放</text>
+      <text x="844" y="590" font-size="20" fill="#FFFFFF">415,250.8 t</text>
+    </g>
+    <text x="64" y="632" font-size="16" fill="#5E6B78">演示数据来自项目示例算例；真实数据需脱敏后使用。</text>
+  </g>
+  <g id="footer" data-pptx-bounds="64 660 1152 30" data-pptx-role="footer">
+    <text x="64" y="682" font-size="14" fill="#8A9AA8">蓄能碳效参谋 · 实践报告</text>
+    <text x="1216" y="682" font-size="14" fill="#8A9AA8" text-anchor="end">05 / 10</text>
+  </g>
+</svg>

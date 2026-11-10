@@ -1,0 +1,25 @@
+{"id": "T01", "type": "tool", "name": "单日标准核算", "base": "day", "op": {}, "expect": {"ok": true, "days": 1, "reduction_t": 9547.843, "tol": 0.5}}
+{"id": "T02", "type": "tool", "name": "连续三日汇总", "base": "3days", "op": {}, "expect": {"ok": true, "days": 3, "reduction_t": 13288.248, "tol": 0.5}}
+{"id": "T03", "type": "tool", "name": "全年 365 天汇总", "base": "year", "op": {}, "expect": {"ok": true, "days": 365, "reduction_t": 897883.4, "tol": 1.0, "elapsed_max_s": 3.0}}
+{"id": "T04", "type": "tool", "name": "装机减半敏感性", "base": "day", "op": {"params": {"zpump_mw": 700}}, "expect": {"ok": true, "days": 1, "reduction_t": 3558.131, "tol": 0.5}}
+{"id": "T05", "type": "tool", "name": "效率 0.70 敏感性", "base": "day", "op": {"params": {"efficiency": 0.70}}, "expect": {"ok": true, "reduction_t": 9123.787, "tol": 0.5}}
+{"id": "T06", "type": "tool", "name": "死区 30% 敏感性", "base": "day", "op": {"params": {"min_load_ratio": 0.30}}, "expect": {"ok": true, "reduction_t": 7791.767, "tol": 0.5}}
+{"id": "T07", "type": "tool", "name": "深调煤耗 380 敏感性", "base": "day", "op": {"params": {"coal_deep_g_per_kwh": 380}}, "expect": {"ok": true, "reduction_t": 10288.535, "tol": 0.5}}
+{"id": "T08", "type": "tool", "name": "缺少光伏字段", "base": "day", "op": {"drop_day_fields": ["solar_mw"]}, "expect": {"ok": false, "error_code": "E_INPUT"}}
+{"id": "T09", "type": "tool", "name": "光伏只有 23 点", "base": "day", "op": {"truncate_day_fields": {"solar_mw": 23}}, "expect": {"ok": false, "error_code": "E_LENGTH"}}
+{"id": "T10", "type": "tool", "name": "负荷出现负值", "base": "day", "op": {"day": {"load_mw": [-1, 20000, 20000, 20000, 20000, 20000, 20000, 20000, 20000, 20000, 20000, 20000, 20000, 20000, 20000, 20000, 20000, 20000, 20000, 20000, 20000, 20000, 20000, 20000]}}, "expect": {"ok": false, "error_code": "E_RANGE"}}
+{"id": "T11", "type": "tool", "name": "装机为 0", "base": "day", "op": {"params": {"zpump_mw": 0}}, "expect": {"ok": false, "error_code": "E_PARAM"}}
+{"id": "T12", "type": "tool", "name": "效率大于 1", "base": "day", "op": {"params": {"efficiency": 1.2}}, "expect": {"ok": false, "error_code": "E_PARAM"}}
+{"id": "T13", "type": "tool", "name": "SOC 只有 24 点", "base": "day", "op": {"soc_length": 24}, "expect": {"ok": false, "error_code": "E_LENGTH"}}
+{"id": "T14", "type": "tool", "name": "SOC 首末不是 0.5", "base": "day", "op": {"soc_start": 0.4}, "expect": {"ok": true, "warnings_contains": "SOC 首末"}}
+{"id": "T15", "type": "tool", "name": "未知参数", "base": "day", "op": {"params": {"magic_factor": 1.5}}, "expect": {"ok": false, "error_code": "E_INPUT"}}
+{"id": "T16", "type": "tool", "name": "days 为空", "base": "day", "op": {"days_empty": true}, "expect": {"ok": false, "error_code": "E_INPUT"}}
+{"id": "T17", "type": "tool", "name": "负荷低于新能源出力", "base": "day", "op": {"load_all": 100}, "expect": {"ok": false, "error_code": "E_RANGE"}}
+{"id": "T18", "type": "tool", "name": "无 SOC 走启发式", "base": "day", "op": {"remove_soc": true}, "expect": {"ok": true, "days": 1, "reduction_t": 340.565, "tol": 0.5, "warnings_contains": "启发式"}}
+{"id": "T19", "type": "tool", "name": "请求体不是对象", "base": "day", "op": {"payload": [1, 2, 3]}, "expect": {"ok": false, "error_code": "E_INPUT"}}
+{"id": "T20", "type": "tool", "name": "第二天少一个字段", "base": "day", "op": {"duplicate_day": true, "duplicate_day_truncate": {"field": "load_mw", "length": 23}}, "expect": {"ok": false, "error_code": "E_LENGTH"}}
+{"id": "C01", "type": "chat", "name": "原理解释", "prompt": "减碳量是怎么算的？", "expect_keywords": ["有抽蓄", "无抽蓄", "差值"]}
+{"id": "C02", "type": "chat", "name": "负值解释", "prompt": "为什么减碳量会是负的？", "expect_keywords": ["抽水", "高煤耗", "损耗"]}
+{"id": "C03", "type": "chat", "name": "CCER 边界", "prompt": "这个结果能直接用于 CCER 吗？", "expect_keywords": ["不能", "额外性", "方法学"]}
+{"id": "C04", "type": "chat", "name": "SOC 来源", "prompt": "SOC 轨迹从哪来？", "expect_keywords": ["NSGA-II", "优化", "启发式"]}
+{"id": "C05", "type": "chat", "name": "效率取值", "prompt": "效率 0.75 合理吗？", "expect_keywords": ["0.70", "0.80", "假设"]}

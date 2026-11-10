@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" lang="zh-CN" font-family="Microsoft YaHei, Arial, PingFang SC, sans-serif" font-size="28" data-pptx-page-role="content">
+  <rect x="0" y="0" width="1280" height="720" fill="#F6F9FA"/>
+  <rect x="0" y="0" width="1280" height="8" fill="#2A9D8F"/>
+  <g id="header" data-pptx-bounds="64 40 1152 52" data-pptx-role="header">
+    <text x="64" y="84" font-size="16" fill="#2A9D8F" letter-spacing="2">08 / 差异化</text>
+    <text x="1216" y="84" font-size="14" fill="#8A9AA8" text-anchor="end" letter-spacing="2">WHY DIFFERENT</text>
+  </g>
+  <g id="body" data-pptx-bounds="64 120 1152 520">
+    <text x="64" y="174" font-size="40" font-weight="bold" fill="#0F2740">不是“会聊天”，是“算得准、说得清、能复现”</text>
+    <text x="64" y="212" font-size="20" fill="#5E6B78">通用助手能给建议，但给不了可复核的排放账。</text>
+    <g id="comparison">
+      <rect x="64" y="250" width="680" height="50" rx="6" fill="#0E2438"/>
+      <text x="88" y="282" font-size="17" fill="#B9CED8">通用聊天机器人</text>
+      <text x="380" y="282" font-size="17" font-weight="bold" fill="#4ECDB4">蓄能碳效参谋</text>
+      <rect x="64" y="300" width="680" height="72" fill="#FFFFFF"/>
+      <text x="88" y="342" font-size="17" fill="#8A9AA8">凭经验估算</text>
+      <text x="380" y="342" font-size="17" fill="#0F2740">确定性工具逐时复算</text>
+      <rect x="64" y="372" width="680" height="72" fill="#F1F5F7"/>
+      <text x="88" y="414" font-size="17" fill="#8A9AA8">黑箱给结论</text>
+      <text x="380" y="414" font-size="17" fill="#0F2740">功率、SOC、煤耗全链路可查</text>
+      <rect x="64" y="444" width="680" height="72" fill="#FFFFFF"/>
+      <text x="88" y="486" font-size="17" fill="#8A9AA8">边界含糊</text>
+      <text x="380" y="486" font-size="16" fill="#0F2740">只算运行阶段 CO2，明确不含什么</text>
+      <rect x="64" y="516" width="680" height="72" fill="#F1F5F7"/>
+      <text x="88" y="558" font-size="17" fill="#8A9AA8">不可复现</text>
+      <text x="380" y="558" font-size="15" fill="#0F2740">20/20 评测；6 个样本日对齐 MATLAB</text>
+    </g>
+    <g id="boundary-card">
+      <rect x="780" y="250" width="436" height="338" rx="10" fill="#0E2438"/>
+      <text x="804" y="292" font-size="24" font-weight="bold" fill="#FFFFFF">边界与合规</text>
+      <line x1="804" y1="312" x2="1192" y2="312" stroke="#2A4A60" stroke-width="2"/>
+      <text x="804" y="350" font-size="16" fill="#D5E4EC">只算运行阶段 CO2 物理排放</text>
+      <text x="804" y="390" font-size="16" fill="#D5E4EC">不含建设、退役、CH4/N2O</text>
+      <text x="804" y="430" font-size="16" fill="#D5E4EC">不构成调度指令、设计依据、<tspan x="804" dy="24">CCER 或投资建议</tspan></text>
+      <text x="804" y="500" font-size="16" fill="#D5E4EC">真实数据脱敏；AI 生成内容标识</text>
+      <text x="804" y="552" font-size="15" fill="#E9C46A">边界不是免责声明，是使用前提。</text>
+    </g>
+    <text x="64" y="622" font-size="20" fill="#2A9D8F">先把边界说清楚，再谈结果有多大。</text>
+  </g>
+  <g id="footer" data-pptx-bounds="64 660 1152 30" data-pptx-role="footer">
+    <text x="64" y="682" font-size="14" fill="#8A9AA8">蓄能碳效参谋 · 实践报告</text>
+    <text x="1216" y="682" font-size="14" fill="#8A9AA8" text-anchor="end">09 / 10</text>
+  </g>
+</svg>

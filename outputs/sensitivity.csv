@@ -1,0 +1,12 @@
+﻿parameter,value,annual_reduction_t,annual_reduction_10kt,delta_vs_base_pct
+zpump_mw,700,133158.085,13.3158,-85.17
+zpump_mw,1000,212309.823,21.231,-76.354
+zpump_mw,1400,897883.4,89.7883,0.0
+zpump_mw,1800,505373.266,50.5373,-43.715
+zpump_mw,2100,273052.565,27.3053,-69.589
+efficiency,0.7,425265.338,42.5265,-52.637
+efficiency,0.75,897883.4,89.7883,0.0
+efficiency,0.8,815310.621,81.5311,-9.196
+min_load_ratio,0.1,680643.712,68.0644,-24.195
+min_load_ratio,0.2,897883.4,89.7883,0.0
+min_load_ratio,0.3,538121.696,53.8122,-40.068

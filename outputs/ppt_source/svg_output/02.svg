@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" lang="zh-CN" font-family="Microsoft YaHei, Arial, PingFang SC, sans-serif" font-size="28" data-pptx-page-role="content">
+  <rect x="0" y="0" width="1280" height="720" fill="#F6F9FA"/>
+  <rect x="0" y="0" width="1280" height="8" fill="#2A9D8F"/>
+  <g id="header" data-pptx-bounds="64 40 1152 52" data-pptx-role="header">
+    <text x="64" y="84" font-size="16" fill="#2A9D8F" letter-spacing="2">01 / 问题</text>
+    <text x="1216" y="84" font-size="14" fill="#8A9AA8" text-anchor="end" letter-spacing="2">PHS CARBON COPILOT</text>
+  </g>
+  <g id="body" data-pptx-bounds="64 120 1152 500">
+    <text x="64" y="176" font-size="44" font-weight="bold" fill="#0F2740">抽蓄减碳，不能用一个固定系数回答</text>
+    <text x="64" y="218" font-size="22" fill="#5E6B78">同样 1400 MW，调度不同，减碳量可能相差数倍，甚至为负。</text>
+    <rect x="64" y="252" width="500" height="326" rx="10" fill="#FFFFFF" stroke="#D9E2E8" stroke-width="2"/>
+    <text x="96" y="316" font-size="20" fill="#5E6B78">常见的估算方式</text>
+    <text x="96" y="382" font-size="36" font-weight="bold" fill="#0F2740">1400 MW × 4 h × ?</text>
+    <text x="96" y="470" font-size="66" font-weight="bold" fill="#2A9D8F">= ?</text>
+    <text x="96" y="522" font-size="18" fill="#5E6B78">固定系数无法回答时序耦合下的真实排放差</text>
+    <g id="pain-1">
+      <circle cx="628" cy="278" r="18" fill="#2A9D8F"/>
+      <text x="628" y="285" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+      <text x="660" y="272" font-size="22" font-weight="bold" fill="#0F2740">时序耦合</text>
+      <text x="660" y="302" font-size="17" fill="#5E6B78">24 小时功率平衡，抽水与发电首末 SOC 一致</text>
+    </g>
+    <g id="pain-2">
+      <circle cx="628" cy="356" r="18" fill="#2A9D8F"/>
+      <text x="628" y="363" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+      <text x="660" y="350" font-size="22" font-weight="bold" fill="#0F2740">参数多</text>
+      <text x="660" y="380" font-size="17" fill="#5E6B78">装机、效率、死区、三段煤耗、碳氧化率</text>
+    </g>
+    <g id="pain-3">
+      <circle cx="628" cy="434" r="18" fill="#2A9D8F"/>
+      <text x="628" y="441" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+      <text x="660" y="428" font-size="22" font-weight="bold" fill="#0F2740">口径不一</text>
+      <text x="660" y="458" font-size="17" fill="#5E6B78">单位、边界、基线、排放因子稍有差异，结果就对不上</text>
+    </g>
+    <g id="pain-4">
+      <circle cx="628" cy="512" r="18" fill="#2A9D8F"/>
+      <text x="628" y="519" font-size="17" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+      <text x="660" y="506" font-size="22" font-weight="bold" fill="#0F2740">解释困难</text>
+      <text x="660" y="536" font-size="17" fill="#5E6B78">算出数容易，说清“为什么、能不能用”很难</text>
+    </g>
+    <rect x="64" y="596" width="1152" height="52" rx="8" fill="#E6F4F1"/>
+    <text x="88" y="629" font-size="20" fill="#0F2740">我们要的不是再做一个聊天机器人，而是一个能把账算清、把边界说明白的参谋。</text>
+  </g>
+  <g id="footer" data-pptx-bounds="64 660 1152 30" data-pptx-role="footer">
+    <text x="64" y="682" font-size="14" fill="#8A9AA8">蓄能碳效参谋 · 实践报告</text>
+    <text x="1216" y="682" font-size="14" fill="#8A9AA8" text-anchor="end">02 / 10</text>
+  </g>
+</svg>

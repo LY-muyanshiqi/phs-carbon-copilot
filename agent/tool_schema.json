@@ -1,0 +1,41 @@
+{
+  "name": "carbon_calculate",
+  "description": "抽水蓄能—火电深度调峰协同减碳核算。输入逐时负荷、水电、风电、光伏（24 点/日，MW）与抽蓄参数，返回有/无抽蓄两种情景的 CO2 排放、减碳量、减排率和逐时明细。",
+  "parameters": {
+    "type": "object",
+    "required": ["days"],
+    "properties": {
+      "project": {"type": "string", "description": "项目名，可选"},
+      "params": {
+        "type": "object",
+        "properties": {
+          "zpump_mw": {"type": "number", "default": 1400, "description": "抽蓄装机，MW"},
+          "duration_h": {"type": "number", "default": 4, "description": "蓄能时长，h"},
+          "efficiency": {"type": "number", "default": 0.75, "description": "抽发综合效率"},
+          "min_load_ratio": {"type": "number", "default": 0.2, "description": "最小出力比例（死区）"},
+          "oxidation_factor": {"type": "number", "default": 0.99},
+          "carbon_content": {"type": "number", "default": 0.7},
+          "coal_deep_g_per_kwh": {"type": "number", "default": 370},
+          "coal_mid_g_per_kwh": {"type": "number", "default": 330},
+          "coal_base_g_per_kwh": {"type": "number", "default": 300}
+        }
+      },
+      "days": {
+        "type": "array",
+        "minItems": 1,
+        "items": {
+          "type": "object",
+          "required": ["load_mw", "hydro_mw", "wind_mw", "solar_mw"],
+          "properties": {
+            "date": {"type": "string"},
+            "load_mw": {"type": "array", "items": {"type": "number"}, "minItems": 24, "maxItems": 24},
+            "hydro_mw": {"type": "array", "items": {"type": "number"}, "minItems": 24, "maxItems": 24},
+            "wind_mw": {"type": "array", "items": {"type": "number"}, "minItems": 24, "maxItems": 24},
+            "solar_mw": {"type": "array", "items": {"type": "number"}, "minItems": 24, "maxItems": 24},
+            "soc": {"type": "array", "items": {"type": "number"}, "minItems": 25, "maxItems": 25, "description": "可选；0-1，首末 0.5"}
+          }
+        }
+      }
+    }
+  }
+}

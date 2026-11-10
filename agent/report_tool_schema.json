@@ -1,0 +1,17 @@
+{
+  "name": "report_generate",
+  "description": "把抽水蓄能减碳核算结果 JSON 转成结构化 Markdown 报告，包含结论、口径、分日结果、假设与边界。",
+  "parameters": {
+    "type": "object",
+    "required": ["ok", "summary", "params", "days"],
+    "properties": {
+      "ok": {"type": "boolean", "const": true},
+      "method_version": {"type": "string"},
+      "summary": {"type": "object"},
+      "params": {"type": "object"},
+      "days": {"type": "array"},
+      "assumptions": {"type": "array", "items": {"type": "string"}},
+      "disclaimer": {"type": "string"}
+    }
+  }
+}

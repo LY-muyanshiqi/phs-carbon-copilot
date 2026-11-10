@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" lang="zh-CN" font-family="Microsoft YaHei, Arial, PingFang SC, sans-serif" font-size="28" data-pptx-page-role="content">
+  <rect x="0" y="0" width="1280" height="720" fill="#F6F9FA"/>
+  <rect x="0" y="0" width="1280" height="8" fill="#2A9D8F"/>
+  <g id="header" data-pptx-bounds="64 40 1152 52" data-pptx-role="header">
+    <text x="64" y="84" font-size="16" fill="#2A9D8F" letter-spacing="2">05 / 结果</text>
+    <text x="1216" y="84" font-size="14" fill="#8A9AA8" text-anchor="end" letter-spacing="2">TYPICAL DAY</text>
+  </g>
+  <g id="body" data-pptx-bounds="64 120 1152 520">
+    <text x="64" y="174" font-size="42" font-weight="bold" fill="#0F2740">典型日：削峰填谷，减碳 9,547.8 t</text>
+    <text x="64" y="212" font-size="20" fill="#5E6B78">2026-11-17，抽蓄把高峰火电压下来，把低谷电量搬上去。</text>
+    <image href="../assets/fig_daily.png" x="64" y="230" width="680" height="393" preserveAspectRatio="xMidYMid meet"/>
+    <g id="metric-1">
+      <rect x="780" y="230" width="436" height="116" rx="10" fill="#FFFFFF" stroke="#D9E2E8" stroke-width="2"/>
+      <text x="804" y="282" font-size="32" font-weight="bold" fill="#2A9D8F">9,547.843 t</text>
+      <text x="804" y="312" font-size="16" fill="#5E6B78">单日减碳</text>
+    </g>
+    <g id="metric-2">
+      <rect x="780" y="362" width="436" height="116" rx="10" fill="#FFFFFF" stroke="#D9E2E8" stroke-width="2"/>
+      <text x="804" y="414" font-size="32" font-weight="bold" fill="#2A9D8F">2.2993%</text>
+      <text x="804" y="444" font-size="16" fill="#5E6B78">单日减排率</text>
+    </g>
+    <g id="metric-3">
+      <rect x="780" y="494" width="436" height="136" rx="10" fill="#FFFFFF" stroke="#D9E2E8" stroke-width="2"/>
+      <text x="804" y="526" font-size="15" fill="#8A9AA8">两种情景排放</text>
+      <text x="804" y="558" font-size="18" fill="#0F2740">有抽蓄  405,702.9 t</text>
+      <text x="804" y="588" font-size="18" fill="#0F2740">无抽蓄  415,250.8 t</text>
+    </g>
+    <text x="64" y="648" font-size="15" fill="#8A9AA8">图为示例算例；正值为发电，负值为抽水。</text>
+  </g>
+  <g id="footer" data-pptx-bounds="64 660 1152 30" data-pptx-role="footer">
+    <text x="64" y="682" font-size="14" fill="#8A9AA8">蓄能碳效参谋 · 实践报告</text>
+    <text x="1216" y="682" font-size="14" fill="#8A9AA8" text-anchor="end">06 / 10</text>
+  </g>
+</svg>

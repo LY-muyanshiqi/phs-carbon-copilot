@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" lang="zh-CN" font-family="Microsoft YaHei, Arial, PingFang SC, sans-serif" font-size="28" data-pptx-page-role="content">
+  <rect x="0" y="0" width="1280" height="720" fill="#F6F9FA"/>
+  <rect x="0" y="0" width="1280" height="8" fill="#2A9D8F"/>
+  <g id="header" data-pptx-bounds="64 40 1152 52" data-pptx-role="header">
+    <text x="64" y="84" font-size="16" fill="#2A9D8F" letter-spacing="2">02 / 方案</text>
+    <text x="1216" y="84" font-size="14" fill="#8A9AA8" text-anchor="end" letter-spacing="2">PHS CARBON COPILOT</text>
+  </g>
+  <g id="body" data-pptx-bounds="64 120 1152 500">
+    <text x="64" y="174" font-size="44" font-weight="bold" fill="#0F2740">智能体 + 可执行 SKILL + 知识库</text>
+    <text x="64" y="214" font-size="21" fill="#5E6B78">三层各司其职：语言负责问与解释，代码负责算，知识库负责边界。</text>
+    <g id="layer-agent">
+      <rect x="64" y="252" width="340" height="300" rx="10" fill="#FFFFFF" stroke="#D9E2E8" stroke-width="2"/>
+      <rect x="64" y="252" width="340" height="8" rx="4" fill="#2A9D8F"/>
+      <text x="88" y="306" font-size="26" font-weight="bold" fill="#0F2740">智能体层</text>
+      <text x="88" y="332" font-size="16" fill="#2A9D8F">问与解释</text>
+      <text x="88" y="382" font-size="18" fill="#33475B">识别单日 / 全年 / 敏感性意图</text>
+      <text x="88" y="420" font-size="18" fill="#33475B">逐项追问缺失参数</text>
+      <text x="88" y="458" font-size="18" fill="#33475B">把结果翻译成可读结论</text>
+      <text x="88" y="516" font-size="16" fill="#8A9AA8">不心算 · 不编参数 · 不越界</text>
+    </g>
+    <g id="layer-tools">
+      <rect x="470" y="252" width="340" height="300" rx="10" fill="#FFFFFF" stroke="#D9E2E8" stroke-width="2"/>
+      <rect x="470" y="252" width="340" height="8" rx="4" fill="#E9C46A"/>
+      <text x="494" y="306" font-size="26" font-weight="bold" fill="#0F2740">工具层</text>
+      <text x="494" y="332" font-size="16" fill="#B8860B">确定性计算</text>
+      <rect x="494" y="356" width="292" height="36" rx="6" fill="#F1F5F7"/>
+      <text x="506" y="381" font-size="17" fill="#0F2740">carbon_calculate</text>
+      <rect x="494" y="402" width="292" height="36" rx="6" fill="#F1F5F7"/>
+      <text x="506" y="427" font-size="17" fill="#0F2740">pareto_explore</text>
+      <rect x="494" y="448" width="292" height="36" rx="6" fill="#F1F5F7"/>
+      <text x="506" y="473" font-size="17" fill="#0F2740">report_generate</text>
+      <text x="494" y="516" font-size="16" fill="#8A9AA8">输入输出都有 JSON Schema</text>
+    </g>
+    <g id="layer-knowledge">
+      <rect x="876" y="252" width="340" height="300" rx="10" fill="#FFFFFF" stroke="#D9E2E8" stroke-width="2"/>
+      <rect x="876" y="252" width="340" height="8" rx="4" fill="#E76F51"/>
+      <text x="900" y="306" font-size="26" font-weight="bold" fill="#0F2740">知识层</text>
+      <text x="900" y="332" font-size="16" fill="#C0503A">边界与口径</text>
+      <text x="900" y="382" font-size="18" fill="#33475B">模型公式与参数口径</text>
+      <text x="900" y="420" font-size="18" fill="#33475B">常见问题 FAQ</text>
+      <text x="900" y="458" font-size="18" fill="#33475B">适用边界与合规</text>
+      <text x="900" y="516" font-size="16" fill="#8A9AA8">4 份知识文档，随答案引用</text>
+    </g>
+    <text x="406" y="414" font-size="38" fill="#2A9D8F">→</text>
+    <text x="812" y="414" font-size="38" fill="#2A9D8F">→</text>
+    <rect x="64" y="584" width="1152" height="54" rx="8" fill="#E6F4F1"/>
+    <text x="88" y="618" font-size="20" fill="#0F2740">确定性计算交给代码，语言解释交给智能体；不让模型心算。</text>
+  </g>
+  <g id="footer" data-pptx-bounds="64 660 1152 30" data-pptx-role="footer">
+    <text x="64" y="682" font-size="14" fill="#8A9AA8">蓄能碳效参谋 · 实践报告</text>
+    <text x="1216" y="682" font-size="14" fill="#8A9AA8" text-anchor="end">03 / 10</text>
+  </g>
+</svg>

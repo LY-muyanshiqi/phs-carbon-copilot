@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720" lang="zh-CN" font-family="Microsoft YaHei, Arial, PingFang SC, sans-serif" font-size="28" data-pptx-page-role="content">
+  <rect x="0" y="0" width="1280" height="720" fill="#0E2438"/>
+  <rect x="0" y="0" width="1280" height="8" fill="#2A9D8F"/>
+  <g id="header" data-pptx-bounds="64 40 1152 52" data-pptx-role="header">
+    <text x="64" y="84" font-size="16" fill="#4ECDB4" letter-spacing="2">06 / 验证</text>
+    <text x="1216" y="84" font-size="14" fill="#7F9AAA" text-anchor="end" letter-spacing="2">FULL-YEAR VALIDATION</text>
+  </g>
+  <g id="body" data-pptx-bounds="64 120 1152 500">
+    <text x="64" y="174" font-size="44" font-weight="bold" fill="#FFFFFF">全年 365 天：净减碳 89.79 万吨</text>
+    <text x="64" y="214" font-size="21" fill="#B9CED8">不是单日亮点，而是逐日复算后的全年净结果。</text>
+    <text x="64" y="334" font-size="92" font-weight="bold" fill="#4ECDB4">89.7883</text>
+    <text x="430" y="334" font-size="30" fill="#FFFFFF">万吨</text>
+    <text x="64" y="378" font-size="20" fill="#B9CED8">全年净减碳</text>
+    <text x="64" y="438" font-size="18" fill="#8FD3C7">351 天为正 · 14 天为负</text>
+    <text x="64" y="472" font-size="18" fill="#8FD3C7">中位数 +2,159.7 t / 日</text>
+    <line x1="680" y1="260" x2="1216" y2="260" stroke="#2A4A60" stroke-width="2"/>
+    <text x="680" y="312" font-size="40" font-weight="bold" fill="#4ECDB4">0.6425%</text>
+    <text x="680" y="340" font-size="16" fill="#B9CED8">全年减排率</text>
+    <text x="980" y="312" font-size="36" font-weight="bold" fill="#FFFFFF">351 / 14</text>
+    <text x="980" y="340" font-size="15" fill="#B9CED8">正减碳 / 负值天数</text>
+    <line x1="680" y1="370" x2="1216" y2="370" stroke="#2A4A60" stroke-width="2"/>
+    <text x="680" y="422" font-size="36" font-weight="bold" fill="#FFFFFF">6 / 6</text>
+    <text x="680" y="450" font-size="15" fill="#B9CED8">样本日 f1、f2 与 MATLAB 完全一致</text>
+    <text x="980" y="422" font-size="36" font-weight="bold" fill="#FFFFFF">20 / 20</text>
+    <text x="980" y="450" font-size="15" fill="#B9CED8">自动化评测通过</text>
+    <line x1="680" y1="480" x2="1216" y2="480" stroke="#2A4A60" stroke-width="2"/>
+    <text x="680" y="532" font-size="36" font-weight="bold" fill="#FFFFFF">0.12 s</text>
+    <text x="680" y="560" font-size="15" fill="#B9CED8">全年核算耗时</text>
+    <text x="980" y="532" font-size="20" fill="#FFFFFF">可复现</text>
+    <text x="980" y="560" font-size="15" fill="#B9CED8">同输入同输出</text>
+    <text x="64" y="620" font-size="18" fill="#E9C46A">负值不是错误，是模型在提示“该日抽水不划算”。</text>
+  </g>
+  <g id="footer" data-pptx-bounds="64 660 1152 30" data-pptx-role="footer">
+    <text x="64" y="682" font-size="14" fill="#7F9AAA">蓄能碳效参谋 · 实践报告</text>
+    <text x="1216" y="682" font-size="14" fill="#7F9AAA" text-anchor="end">07 / 10</text>
+  </g>
+</svg>

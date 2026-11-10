@@ -1,0 +1,78 @@
+{
+  "agent_name": "蓄能碳效参谋",
+  "tagline": "会算、会解释、会出报告的抽水蓄能减碳核算智能体",
+  "temperature": 0.2,
+  "system_prompt_file": "agent/system_prompt.md",
+  "knowledge_files": [
+    "agent/knowledge/01_model.md",
+    "agent/knowledge/02_parameters.md",
+    "agent/knowledge/03_faq.md",
+    "agent/knowledge/04_boundaries.md"
+  ],
+  "opening": "我是蓄能碳效参谋。告诉我核算对象、抽蓄装机与蓄能时长，以及 24 小时负荷/水/风/光数据，我帮你算有/无抽蓄的减碳量。",
+  "suggested_questions": [
+    "1400 MW、4 小时、效率 0.75，帮我算 2026-11-17 的减碳量。",
+    "没有 SOC 轨迹能算吗？",
+    "为什么减碳量会是负的？",
+    "这个结果能直接用于 CCER 吗？",
+    "装机 1800 MW 是不是减得更多？"
+  ],
+  "tools": [
+    {
+      "name": "carbon_calculate",
+      "method": "POST",
+      "url": "http://127.0.0.1:8790/calculate",
+      "schema_file": "agent/tool_schema.json",
+      "timeout_s": 30
+    },
+    {
+      "name": "pareto_explore",
+      "method": "POST",
+      "url": "http://127.0.0.1:8790/pareto",
+      "schema_file": "agent/pareto_tool_schema.json",
+      "timeout_s": 15
+    },
+    {
+      "name": "report_generate",
+      "method": "POST",
+      "url": "http://127.0.0.1:8790/report",
+      "schema_file": "agent/report_tool_schema.json",
+      "timeout_s": 15
+    }
+  ],
+  "acceptance_tests": [
+    {
+      "id": "A1",
+      "prompt": "1400 MW、4 小时、效率 0.75，帮我算 2026-11-17 的减碳量。",
+      "expect": "先要 24 点负荷/水/风/光数据；给示例后返回 9,547.8 t、2.30%"
+    },
+    {
+      "id": "A2",
+      "prompt": "没有 SOC 轨迹能算吗？",
+      "expect": "能，但明确说明启发式、非最优"
+    },
+    {
+      "id": "A3",
+      "prompt": "为什么减碳量会是负的？",
+      "expect": "解释抽水耗电、高煤耗补足、损耗"
+    },
+    {
+      "id": "A4",
+      "prompt": "这个结果能直接用于 CCER 吗？",
+      "expect": "不能，说明额外性、方法学、审定"
+    },
+    {
+      "id": "A5",
+      "prompt": "光伏少给一个点行不行？",
+      "expect": "拒绝，提示 E_LENGTH，要求 24 点"
+    }
+  ],
+  "publish_checklist": [
+    "系统提示词已粘贴且无截断",
+    "四个知识库文件已上传",
+    "三个工具均返回 200",
+    "五条验收对话全部符合预期",
+    "开场白与推荐问题已配置",
+    "演示数据已标注“示例”"
+  ]
+}

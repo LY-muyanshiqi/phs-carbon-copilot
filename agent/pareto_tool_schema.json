@@ -1,0 +1,25 @@
+{
+  "name": "pareto_explore",
+  "description": "读取 NSGA-II 的 Pareto 前沿点，按偏好返回折中解、最小调峰点、最低排放点和拐点。",
+  "parameters": {
+    "type": "object",
+    "required": ["points"],
+    "properties": {
+      "project": {"type": "string"},
+      "date": {"type": "string"},
+      "preference": {"type": "string", "enum": ["balanced", "low_peak", "low_carbon"], "default": "balanced"},
+      "points": {
+        "type": "array",
+        "minItems": 3,
+        "items": {
+          "type": "object",
+          "required": ["zt_f_mw", "emissions_kg"],
+          "properties": {
+            "zt_f_mw": {"type": "number", "description": "火电调峰深度目标，MW"},
+            "emissions_kg": {"type": "number", "description": "日碳排放量，kg"}
+          }
+        }
+      }
+    }
+  }
+}

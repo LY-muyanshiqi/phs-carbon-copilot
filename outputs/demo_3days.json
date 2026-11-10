@@ -1,0 +1,1472 @@
+{
+  "ok": true,
+  "method_version": "1.0.0",
+  "model": "抽水蓄能—火电深度调峰协同减碳核算（软著 V1.0 口径）",
+  "params": {
+    "zpump_mw": 1400.0,
+    "duration_h": 4.0,
+    "efficiency": 0.75,
+    "min_load_ratio": 0.2,
+    "oxidation_factor": 0.99,
+    "carbon_content": 0.7,
+    "coal_deep_g_per_kwh": 370.0,
+    "coal_mid_g_per_kwh": 330.0,
+    "coal_base_g_per_kwh": 300.0
+  },
+  "summary": {
+    "days": 3,
+    "reduction_kg": 13288247.794,
+    "reduction_t": 13288.248,
+    "reduction_10kt": 1.328825,
+    "reduction_rate_pct": 1.1137,
+    "emissions_with_phs_kg": 1179866743.088,
+    "emissions_without_phs_kg": 1193154990.882
+  },
+  "days": [
+    {
+      "date": "2026-11-16",
+      "params": {
+        "zpump_mw": 1400.0,
+        "duration_h": 4.0,
+        "efficiency": 0.75,
+        "min_load_ratio": 0.2,
+        "oxidation_factor": 0.99,
+        "carbon_content": 0.7,
+        "coal_deep_g_per_kwh": 370.0,
+        "coal_mid_g_per_kwh": 330.0,
+        "coal_base_g_per_kwh": 300.0
+      },
+      "capacity_mwh": 5600.0,
+      "soc": [
+        0.5,
+        0.5,
+        0.273057,
+        0.460557,
+        0.648057,
+        0.782866,
+        0.83919,
+        0.58919,
+        0.463488,
+        0.213488,
+        0.213488,
+        0.400988,
+        0.446939,
+        0.634439,
+        0.702987,
+        0.890487,
+        0.995926,
+        0.995926,
+        0.745926,
+        0.495926,
+        0.245926,
+        0.245926,
+        0.337752,
+        0.337752,
+        0.5
+      ],
+      "npump_mw": [
+        0.0,
+        1270.882,
+        -1400.0,
+        -1400.0,
+        -1006.576,
+        -420.549,
+        1400.0,
+        703.928,
+        1400.0,
+        0.0,
+        -1400.0,
+        -343.102,
+        -1400.0,
+        -511.827,
+        -1400.0,
+        -787.275,
+        0.0,
+        1400.0,
+        1400.0,
+        1400.0,
+        0.0,
+        -685.635,
+        0.0,
+        -1211.45
+      ],
+      "thermal_with_phs_mw": [
+        19324.588,
+        17312.172,
+        19673.946,
+        19538.934,
+        19211.948,
+        19185.353,
+        19185.49,
+        21618.717,
+        20621.812,
+        19538.671,
+        18899.555,
+        17197.458,
+        18195.179,
+        17193.779,
+        18231.749,
+        18197.98,
+        20458.607,
+        22506.008,
+        24152.468,
+        23218.371,
+        23802.2,
+        23558.755,
+        21232.088,
+        22188.82
+      ],
+      "thermal_without_phs_mw": [
+        19324.588,
+        18583.054,
+        18273.946,
+        18138.934,
+        18205.372,
+        18764.803,
+        20585.49,
+        22322.645,
+        22021.812,
+        19538.671,
+        17499.555,
+        16854.356,
+        16795.179,
+        16681.952,
+        16831.749,
+        17410.705,
+        20458.607,
+        23906.008,
+        25552.468,
+        24618.371,
+        23802.2,
+        22873.119,
+        21232.088,
+        20977.371
+      ],
+      "with_phs": {
+        "zt_f_mw": 9940.984,
+        "nt_b_mw": 14211.484,
+        "base_intensity_g_per_kwh": 762.3,
+        "avg_intensity_g_per_kwh": 770.918,
+        "emissions_kg": 373312948.738,
+        "hourly": [
+          {
+            "thermal_mw": 19324.588,
+            "th_mw": 5113.104,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 14731133.188
+          },
+          {
+            "thermal_mw": 17312.172,
+            "th_mw": 3100.689,
+            "coal_g_per_kwh": 370.0,
+            "intensity_g_per_kwh": 1015.203,
+            "emissions_kg": 13981243.336
+          },
+          {
+            "thermal_mw": 19673.946,
+            "th_mw": 5462.463,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 14997449.127
+          },
+          {
+            "thermal_mw": 19538.934,
+            "th_mw": 5327.45,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 14894529.03
+          },
+          {
+            "thermal_mw": 19211.948,
+            "th_mw": 5000.465,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 14645268.023
+          },
+          {
+            "thermal_mw": 19185.353,
+            "th_mw": 4973.869,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 14624994.224
+          },
+          {
+            "thermal_mw": 19185.49,
+            "th_mw": 4974.007,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 14625099.401
+          },
+          {
+            "thermal_mw": 21618.717,
+            "th_mw": 7407.233,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 16479947.814
+          },
+          {
+            "thermal_mw": 20621.812,
+            "th_mw": 6410.328,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 15720007.074
+          },
+          {
+            "thermal_mw": 19538.671,
+            "th_mw": 5327.187,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 14894328.812
+          },
+          {
+            "thermal_mw": 18899.555,
+            "th_mw": 4688.072,
+            "coal_g_per_kwh": 330.0,
+            "intensity_g_per_kwh": 865.867,
+            "emissions_kg": 14892661.952
+          },
+          {
+            "thermal_mw": 17197.458,
+            "th_mw": 2985.974,
+            "coal_g_per_kwh": 370.0,
+            "intensity_g_per_kwh": 1017.831,
+            "emissions_kg": 13872629.932
+          },
+          {
+            "thermal_mw": 18195.179,
+            "th_mw": 3983.696,
+            "coal_g_per_kwh": 330.0,
+            "intensity_g_per_kwh": 877.46,
+            "emissions_kg": 14328949.174
+          },
+          {
+            "thermal_mw": 17193.779,
+            "th_mw": 2982.295,
+            "coal_g_per_kwh": 370.0,
+            "intensity_g_per_kwh": 1017.915,
+            "emissions_kg": 13869136.515
+          },
+          {
+            "thermal_mw": 18231.749,
+            "th_mw": 4020.265,
+            "coal_g_per_kwh": 330.0,
+            "intensity_g_per_kwh": 876.859,
+            "emissions_kg": 14358617.657
+          },
+          {
+            "thermal_mw": 18197.98,
+            "th_mw": 3986.497,
+            "coal_g_per_kwh": 330.0,
+            "intensity_g_per_kwh": 877.414,
+            "emissions_kg": 14331223.346
+          },
+          {
+            "thermal_mw": 20458.607,
+            "th_mw": 6247.123,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 15595595.743
+          },
+          {
+            "thermal_mw": 22506.008,
+            "th_mw": 8294.525,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 17156330.036
+          },
+          {
+            "thermal_mw": 24152.468,
+            "th_mw": 9940.984,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 18411426.257
+          },
+          {
+            "thermal_mw": 23218.371,
+            "th_mw": 9006.888,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 17699364.343
+          },
+          {
+            "thermal_mw": 23802.2,
+            "th_mw": 9590.716,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 18144416.793
+          },
+          {
+            "thermal_mw": 23558.755,
+            "th_mw": 9347.271,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 17958838.777
+          },
+          {
+            "thermal_mw": 21232.088,
+            "th_mw": 7020.604,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 16185220.423
+          },
+          {
+            "thermal_mw": 22188.82,
+            "th_mw": 7977.337,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 16914537.761
+          }
+        ]
+      },
+      "without_phs": {
+        "zt_f_mw": 12672.165,
+        "nt_b_mw": 12880.303,
+        "base_intensity_g_per_kwh": 762.3,
+        "avg_intensity_g_per_kwh": 781.406,
+        "emissions_kg": 376054141.3,
+        "hourly": [
+          {
+            "thermal_mw": 19324.588,
+            "th_mw": 6444.285,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 14731133.188
+          },
+          {
+            "thermal_mw": 18583.054,
+            "th_mw": 5702.752,
+            "coal_g_per_kwh": 330.0,
+            "intensity_g_per_kwh": 869.396,
+            "emissions_kg": 14776605.35
+          },
+          {
+            "thermal_mw": 18273.946,
+            "th_mw": 5393.644,
+            "coal_g_per_kwh": 330.0,
+            "intensity_g_per_kwh": 873.387,
+            "emissions_kg": 14529394.19
+          },
+          {
+            "thermal_mw": 18138.934,
+            "th_mw": 5258.631,
+            "coal_g_per_kwh": 330.0,
+            "intensity_g_per_kwh": 875.13,
+            "emissions_kg": 14420642.807
+          },
+          {
+            "thermal_mw": 18205.372,
+            "th_mw": 5325.07,
+            "coal_g_per_kwh": 330.0,
+            "intensity_g_per_kwh": 874.273,
+            "emissions_kg": 14474217.337
+          },
+          {
+            "thermal_mw": 18764.803,
+            "th_mw": 5884.501,
+            "coal_g_per_kwh": 330.0,
+            "intensity_g_per_kwh": 867.05,
+            "emissions_kg": 14920808.344
+          },
+          {
+            "thermal_mw": 20585.49,
+            "th_mw": 7705.188,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 15692319.401
+          },
+          {
+            "thermal_mw": 22322.645,
+            "th_mw": 9442.343,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 17016552.39
+          },
+          {
+            "thermal_mw": 22021.812,
+            "th_mw": 9141.509,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 16787227.074
+          },
+          {
+            "thermal_mw": 19538.671,
+            "th_mw": 6658.368,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 14894328.812
+          },
+          {
+            "thermal_mw": 17499.555,
+            "th_mw": 4619.253,
+            "coal_g_per_kwh": 370.0,
+            "intensity_g_per_kwh": 1003.226,
+            "emissions_kg": 14452807.059
+          },
+          {
+            "thermal_mw": 16854.356,
+            "th_mw": 3974.054,
+            "coal_g_per_kwh": 370.0,
+            "intensity_g_per_kwh": 1014.817,
+            "emissions_kg": 13851593.516
+          },
+          {
+            "thermal_mw": 16795.179,
+            "th_mw": 3914.877,
+            "coal_g_per_kwh": 370.0,
+            "intensity_g_per_kwh": 1015.881,
+            "emissions_kg": 13795701.695
+          },
+          {
+            "thermal_mw": 16681.952,
+            "th_mw": 3801.65,
+            "coal_g_per_kwh": 370.0,
+            "intensity_g_per_kwh": 1017.915,
+            "emissions_kg": 13688410.156
+          },
+          {
+            "thermal_mw": 16831.749,
+            "th_mw": 3951.446,
+            "coal_g_per_kwh": 370.0,
+            "intensity_g_per_kwh": 1015.224,
+            "emissions_kg": 13830255.701
+          },
+          {
+            "thermal_mw": 17410.705,
+            "th_mw": 4530.403,
+            "coal_g_per_kwh": 370.0,
+            "intensity_g_per_kwh": 1004.822,
+            "emissions_kg": 14370902.089
+          },
+          {
+            "thermal_mw": 20458.607,
+            "th_mw": 7578.304,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 15595595.743
+          },
+          {
+            "thermal_mw": 23906.008,
+            "th_mw": 11025.706,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 18223550.036
+          },
+          {
+            "thermal_mw": 25552.468,
+            "th_mw": 12672.165,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 19478646.257
+          },
+          {
+            "thermal_mw": 24618.371,
+            "th_mw": 11738.069,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 18766584.343
+          },
+          {
+            "thermal_mw": 23802.2,
+            "th_mw": 10921.897,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 18144416.793
+          },
+          {
+            "thermal_mw": 22873.119,
+            "th_mw": 9992.817,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 17436178.903
+          },
+          {
+            "thermal_mw": 21232.088,
+            "th_mw": 8351.785,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 16185220.423
+          },
+          {
+            "thermal_mw": 20977.371,
+            "th_mw": 8097.068,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 15991049.692
+          }
+        ]
+      },
+      "reduction_kg": 2741192.562,
+      "reduction_t": 2741.193,
+      "reduction_10kt": 0.274119,
+      "reduction_rate_pct": 0.7289,
+      "warnings": []
+    },
+    {
+      "date": "2026-11-17",
+      "params": {
+        "zpump_mw": 1400.0,
+        "duration_h": 4.0,
+        "efficiency": 0.75,
+        "min_load_ratio": 0.2,
+        "oxidation_factor": 0.99,
+        "carbon_content": 0.7,
+        "coal_deep_g_per_kwh": 370.0,
+        "coal_mid_g_per_kwh": 330.0,
+        "coal_base_g_per_kwh": 300.0
+      },
+      "capacity_mwh": 5600.0,
+      "soc": [
+        0.5,
+        0.41532,
+        0.60282,
+        0.649186,
+        0.738564,
+        0.779198,
+        0.779198,
+        0.84763,
+        0.84763,
+        0.59763,
+        0.59763,
+        0.78513,
+        0.78513,
+        0.911523,
+        0.808902,
+        0.872182,
+        0.987982,
+        0.987982,
+        0.737982,
+        0.487982,
+        0.237982,
+        0.050671,
+        0.126171,
+        0.313671,
+        0.5
+      ],
+      "npump_mw": [
+        474.209,
+        -1400.0,
+        -346.203,
+        -667.355,
+        -303.399,
+        0.0,
+        -510.96,
+        0.0,
+        1400.0,
+        0.0,
+        -1400.0,
+        0.0,
+        -943.732,
+        574.676,
+        -472.491,
+        -864.64,
+        0.0,
+        1400.0,
+        1400.0,
+        1400.0,
+        1048.944,
+        -563.731,
+        -1400.0,
+        -1391.26
+      ],
+      "thermal_with_phs_mw": [
+        19514.051,
+        20729.762,
+        19336.102,
+        19445.828,
+        19397.627,
+        19804.196,
+        22106.712,
+        23214.872,
+        20698.036,
+        19790.37,
+        19336.211,
+        17497.746,
+        17648.516,
+        15709.775,
+        17543.698,
+        19325.978,
+        23498.836,
+        26814.89,
+        28201.615,
+        27904.125,
+        27788.423,
+        28165.746,
+        27089.059,
+        26599.937
+      ],
+      "thermal_without_phs_mw": [
+        19988.26,
+        19329.762,
+        18989.898,
+        18778.473,
+        19094.228,
+        19804.196,
+        21595.752,
+        23214.872,
+        22098.036,
+        19790.37,
+        17936.211,
+        17497.746,
+        16704.784,
+        16284.451,
+        17071.207,
+        18461.338,
+        23498.836,
+        28214.89,
+        29601.615,
+        29304.125,
+        28837.367,
+        27602.015,
+        25689.059,
+        25208.676
+      ],
+      "with_phs": {
+        "zt_f_mw": 17845.485,
+        "nt_b_mw": 10356.129,
+        "base_intensity_g_per_kwh": 762.3,
+        "avg_intensity_g_per_kwh": 769.598,
+        "emissions_kg": 405702909.64,
+        "hourly": [
+          {
+            "thermal_mw": 19514.051,
+            "th_mw": 9157.922,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 14875561.26
+          },
+          {
+            "thermal_mw": 20729.762,
+            "th_mw": 10373.633,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 15802297.923
+          },
+          {
+            "thermal_mw": 19336.102,
+            "th_mw": 8979.972,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 14739910.211
+          },
+          {
+            "thermal_mw": 19445.828,
+            "th_mw": 9089.699,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 14823554.876
+          },
+          {
+            "thermal_mw": 19397.627,
+            "th_mw": 9041.497,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 14786810.987
+          },
+          {
+            "thermal_mw": 19804.196,
+            "th_mw": 9448.067,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 15096738.969
+          },
+          {
+            "thermal_mw": 22106.712,
+            "th_mw": 11750.582,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 16851946.487
+          },
+          {
+            "thermal_mw": 23214.872,
+            "th_mw": 12858.743,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 17696697.131
+          },
+          {
+            "thermal_mw": 20698.036,
+            "th_mw": 10341.907,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 15778112.934
+          },
+          {
+            "thermal_mw": 19790.37,
+            "th_mw": 9434.241,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 15086199.379
+          },
+          {
+            "thermal_mw": 19336.211,
+            "th_mw": 8980.081,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 14739993.409
+          },
+          {
+            "thermal_mw": 17497.746,
+            "th_mw": 7141.616,
+            "coal_g_per_kwh": 330.0,
+            "intensity_g_per_kwh": 877.549,
+            "emissions_kg": 14161597.387
+          },
+          {
+            "thermal_mw": 17648.516,
+            "th_mw": 7292.386,
+            "coal_g_per_kwh": 330.0,
+            "intensity_g_per_kwh": 876.167,
+            "emissions_kg": 14283825.067
+          },
+          {
+            "thermal_mw": 15709.775,
+            "th_mw": 5353.646,
+            "coal_g_per_kwh": 370.0,
+            "intensity_g_per_kwh": 1017.915,
+            "emissions_kg": 13344032.76
+          },
+          {
+            "thermal_mw": 17543.698,
+            "th_mw": 7187.569,
+            "coal_g_per_kwh": 330.0,
+            "intensity_g_per_kwh": 877.128,
+            "emissions_kg": 14198894.759
+          },
+          {
+            "thermal_mw": 19325.978,
+            "th_mw": 8969.849,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 14732192.999
+          },
+          {
+            "thermal_mw": 23498.836,
+            "th_mw": 13142.707,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 17913162.744
+          },
+          {
+            "thermal_mw": 26814.89,
+            "th_mw": 16458.76,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 20440990.472
+          },
+          {
+            "thermal_mw": 28201.615,
+            "th_mw": 17845.485,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 21498091.008
+          },
+          {
+            "thermal_mw": 27904.125,
+            "th_mw": 17547.996,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 21271314.564
+          },
+          {
+            "thermal_mw": 27788.423,
+            "th_mw": 17432.293,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 21183114.78
+          },
+          {
+            "thermal_mw": 28165.746,
+            "th_mw": 17809.616,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 21470748.072
+          },
+          {
+            "thermal_mw": 27089.059,
+            "th_mw": 16732.93,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 20649989.828
+          },
+          {
+            "thermal_mw": 26599.937,
+            "th_mw": 16243.807,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 20277131.632
+          }
+        ]
+      },
+      "without_phs": {
+        "zt_f_mw": 19024.52,
+        "nt_b_mw": 10577.095,
+        "base_intensity_g_per_kwh": 762.3,
+        "avg_intensity_g_per_kwh": 791.563,
+        "emissions_kg": 415250752.189,
+        "hourly": [
+          {
+            "thermal_mw": 19988.26,
+            "th_mw": 9411.165,
+            "coal_g_per_kwh": 330.0,
+            "intensity_g_per_kwh": 862.088,
+            "emissions_kg": 16176176.138
+          },
+          {
+            "thermal_mw": 19329.762,
+            "th_mw": 8752.667,
+            "coal_g_per_kwh": 330.0,
+            "intensity_g_per_kwh": 867.752,
+            "emissions_kg": 15658061.586
+          },
+          {
+            "thermal_mw": 18989.898,
+            "th_mw": 8412.803,
+            "coal_g_per_kwh": 330.0,
+            "intensity_g_per_kwh": 870.675,
+            "emissions_kg": 15387733.678
+          },
+          {
+            "thermal_mw": 18778.473,
+            "th_mw": 8201.378,
+            "coal_g_per_kwh": 330.0,
+            "intensity_g_per_kwh": 872.493,
+            "emissions_kg": 15218564.128
+          },
+          {
+            "thermal_mw": 19094.228,
+            "th_mw": 8517.133,
+            "coal_g_per_kwh": 330.0,
+            "intensity_g_per_kwh": 869.777,
+            "emissions_kg": 15470929.134
+          },
+          {
+            "thermal_mw": 19804.196,
+            "th_mw": 9227.101,
+            "coal_g_per_kwh": 330.0,
+            "intensity_g_per_kwh": 863.671,
+            "emissions_kg": 16032103.507
+          },
+          {
+            "thermal_mw": 21595.752,
+            "th_mw": 11018.657,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 16462441.894
+          },
+          {
+            "thermal_mw": 23214.872,
+            "th_mw": 12637.777,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 17696697.131
+          },
+          {
+            "thermal_mw": 22098.036,
+            "th_mw": 11520.941,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 16845332.934
+          },
+          {
+            "thermal_mw": 19790.37,
+            "th_mw": 9213.275,
+            "coal_g_per_kwh": 330.0,
+            "intensity_g_per_kwh": 863.79,
+            "emissions_kg": 16021257.881
+          },
+          {
+            "thermal_mw": 17936.211,
+            "th_mw": 7359.116,
+            "coal_g_per_kwh": 370.0,
+            "intensity_g_per_kwh": 998.148,
+            "emissions_kg": 15408404.326
+          },
+          {
+            "thermal_mw": 17497.746,
+            "th_mw": 6920.651,
+            "coal_g_per_kwh": 370.0,
+            "intensity_g_per_kwh": 1003.395,
+            "emissions_kg": 15007065.831
+          },
+          {
+            "thermal_mw": 16704.784,
+            "th_mw": 6127.689,
+            "coal_g_per_kwh": 370.0,
+            "intensity_g_per_kwh": 1012.885,
+            "emissions_kg": 14269561.024
+          },
+          {
+            "thermal_mw": 16284.451,
+            "th_mw": 5707.356,
+            "coal_g_per_kwh": 370.0,
+            "intensity_g_per_kwh": 1017.915,
+            "emissions_kg": 13872521.796
+          },
+          {
+            "thermal_mw": 17071.207,
+            "th_mw": 6494.112,
+            "coal_g_per_kwh": 370.0,
+            "intensity_g_per_kwh": 1008.5,
+            "emissions_kg": 14612228.069
+          },
+          {
+            "thermal_mw": 18461.338,
+            "th_mw": 7884.243,
+            "coal_g_per_kwh": 330.0,
+            "intensity_g_per_kwh": 875.22,
+            "emissions_kg": 14963369.782
+          },
+          {
+            "thermal_mw": 23498.836,
+            "th_mw": 12921.741,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 17913162.744
+          },
+          {
+            "thermal_mw": 28214.89,
+            "th_mw": 17637.795,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 21508210.472
+          },
+          {
+            "thermal_mw": 29601.615,
+            "th_mw": 19024.52,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 22565311.008
+          },
+          {
+            "thermal_mw": 29304.125,
+            "th_mw": 18727.03,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 22338534.564
+          },
+          {
+            "thermal_mw": 28837.367,
+            "th_mw": 18260.272,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 21982724.712
+          },
+          {
+            "thermal_mw": 27602.015,
+            "th_mw": 17024.92,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 21041015.951
+          },
+          {
+            "thermal_mw": 25689.059,
+            "th_mw": 15111.964,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 19582769.828
+          },
+          {
+            "thermal_mw": 25208.676,
+            "th_mw": 14631.581,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 19216574.073
+          }
+        ]
+      },
+      "reduction_kg": 9547842.549,
+      "reduction_t": 9547.843,
+      "reduction_10kt": 0.954784,
+      "reduction_rate_pct": 2.2993,
+      "warnings": []
+    },
+    {
+      "date": "2026-11-18",
+      "params": {
+        "zpump_mw": 1400.0,
+        "duration_h": 4.0,
+        "efficiency": 0.75,
+        "min_load_ratio": 0.2,
+        "oxidation_factor": 0.99,
+        "carbon_content": 0.7,
+        "coal_deep_g_per_kwh": 370.0,
+        "coal_mid_g_per_kwh": 330.0,
+        "coal_base_g_per_kwh": 300.0
+      },
+      "capacity_mwh": 5600.0,
+      "soc": [
+        0.5,
+        0.5,
+        0.25,
+        0.25,
+        0.183606,
+        0.371106,
+        0.309721,
+        0.07959,
+        0.07959,
+        0.009396,
+        0.048488,
+        0.18898,
+        0.37648,
+        0.510054,
+        0.63425,
+        0.82175,
+        0.979888,
+        0.979888,
+        0.729888,
+        0.479888,
+        0.229888,
+        0.087274,
+        0.125005,
+        0.312505,
+        0.5
+      ],
+      "npump_mw": [
+        0.0,
+        1400.0,
+        0.0,
+        371.808,
+        -1400.0,
+        343.753,
+        1288.735,
+        0.0,
+        393.089,
+        -291.893,
+        -1049.004,
+        -1400.0,
+        -997.349,
+        -927.337,
+        -1400.0,
+        -1180.76,
+        0.0,
+        1400.0,
+        1400.0,
+        1400.0,
+        798.635,
+        -281.725,
+        -1400.0,
+        -1399.959
+      ],
+      "thermal_with_phs_mw": [
+        23812.545,
+        21329.574,
+        22106.726,
+        21291.516,
+        22913.642,
+        21481.642,
+        21408.73,
+        23345.445,
+        21650.341,
+        19712.141,
+        19540.338,
+        18430.945,
+        17381.236,
+        17355.507,
+        18454.96,
+        19523.087,
+        21535.024,
+        23697.457,
+        24780.875,
+        24187.58,
+        24385.347,
+        24874.436,
+        24561.081,
+        24615.223
+      ],
+      "thermal_without_phs_mw": [
+        23812.545,
+        22729.574,
+        22106.726,
+        21663.324,
+        21513.642,
+        21825.395,
+        22697.465,
+        23345.445,
+        22043.43,
+        19420.248,
+        18491.334,
+        17030.945,
+        16383.887,
+        16428.17,
+        17054.96,
+        18342.326,
+        21535.024,
+        25097.457,
+        26180.875,
+        25587.58,
+        25183.983,
+        24592.711,
+        23161.081,
+        23215.263
+      ],
+      "with_phs": {
+        "zt_f_mw": 10741.327,
+        "nt_b_mw": 14133.109,
+        "base_intensity_g_per_kwh": 762.3,
+        "avg_intensity_g_per_kwh": 767.362,
+        "emissions_kg": 400850884.71,
+        "hourly": [
+          {
+            "thermal_mw": 23812.545,
+            "th_mw": 9679.436,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 18152302.756
+          },
+          {
+            "thermal_mw": 21329.574,
+            "th_mw": 7196.465,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 16259534.428
+          },
+          {
+            "thermal_mw": 22106.726,
+            "th_mw": 7973.617,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 16851956.948
+          },
+          {
+            "thermal_mw": 21291.516,
+            "th_mw": 7158.407,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 16230522.872
+          },
+          {
+            "thermal_mw": 22913.642,
+            "th_mw": 8780.533,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 17467069.205
+          },
+          {
+            "thermal_mw": 21481.642,
+            "th_mw": 7348.533,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 16375455.655
+          },
+          {
+            "thermal_mw": 21408.73,
+            "th_mw": 7275.621,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 16319874.661
+          },
+          {
+            "thermal_mw": 23345.445,
+            "th_mw": 9212.336,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 17796232.457
+          },
+          {
+            "thermal_mw": 21650.341,
+            "th_mw": 7517.232,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 16504055.016
+          },
+          {
+            "thermal_mw": 19712.141,
+            "th_mw": 5579.032,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 15026565.212
+          },
+          {
+            "thermal_mw": 19540.338,
+            "th_mw": 5407.229,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 14895599.786
+          },
+          {
+            "thermal_mw": 18430.945,
+            "th_mw": 4297.836,
+            "coal_g_per_kwh": 330.0,
+            "intensity_g_per_kwh": 877.561,
+            "emissions_kg": 14545280.751
+          },
+          {
+            "thermal_mw": 17381.236,
+            "th_mw": 3248.127,
+            "coal_g_per_kwh": 370.0,
+            "intensity_g_per_kwh": 1017.369,
+            "emissions_kg": 14078214.171
+          },
+          {
+            "thermal_mw": 17355.507,
+            "th_mw": 3222.398,
+            "coal_g_per_kwh": 370.0,
+            "intensity_g_per_kwh": 1017.915,
+            "emissions_kg": 14053795.651
+          },
+          {
+            "thermal_mw": 18454.96,
+            "th_mw": 4321.851,
+            "coal_g_per_kwh": 330.0,
+            "intensity_g_per_kwh": 877.195,
+            "emissions_kg": 14564774.381
+          },
+          {
+            "thermal_mw": 19523.087,
+            "th_mw": 5389.978,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 14882448.912
+          },
+          {
+            "thermal_mw": 21535.024,
+            "th_mw": 7401.915,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 16416148.696
+          },
+          {
+            "thermal_mw": 23697.457,
+            "th_mw": 9564.348,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 18064571.425
+          },
+          {
+            "thermal_mw": 24780.875,
+            "th_mw": 10647.766,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 18890460.654
+          },
+          {
+            "thermal_mw": 24187.58,
+            "th_mw": 10054.471,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 18438192.31
+          },
+          {
+            "thermal_mw": 24385.347,
+            "th_mw": 10252.239,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 18588950.339
+          },
+          {
+            "thermal_mw": 24874.436,
+            "th_mw": 10741.327,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 18961782.346
+          },
+          {
+            "thermal_mw": 24561.081,
+            "th_mw": 10427.972,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 18722911.848
+          },
+          {
+            "thermal_mw": 24615.223,
+            "th_mw": 10482.114,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 18764184.228
+          }
+        ]
+      },
+      "without_phs": {
+        "zt_f_mw": 13995.696,
+        "nt_b_mw": 12185.178,
+        "base_intensity_g_per_kwh": 762.3,
+        "avg_intensity_g_per_kwh": 773.617,
+        "emissions_kg": 401850097.393,
+        "hourly": [
+          {
+            "thermal_mw": 23812.545,
+            "th_mw": 11627.367,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 18152302.756
+          },
+          {
+            "thermal_mw": 22729.574,
+            "th_mw": 10544.396,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 17326754.428
+          },
+          {
+            "thermal_mw": 22106.726,
+            "th_mw": 9921.548,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 16851956.948
+          },
+          {
+            "thermal_mw": 21663.324,
+            "th_mw": 9478.146,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 16513952.129
+          },
+          {
+            "thermal_mw": 21513.642,
+            "th_mw": 9328.464,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 16399849.205
+          },
+          {
+            "thermal_mw": 21825.395,
+            "th_mw": 9640.217,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 16637498.357
+          },
+          {
+            "thermal_mw": 22697.465,
+            "th_mw": 10512.287,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 17302277.539
+          },
+          {
+            "thermal_mw": 23345.445,
+            "th_mw": 11160.267,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 17796232.457
+          },
+          {
+            "thermal_mw": 22043.43,
+            "th_mw": 9858.252,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 16803706.529
+          },
+          {
+            "thermal_mw": 19420.248,
+            "th_mw": 7235.07,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 14804055.073
+          },
+          {
+            "thermal_mw": 18491.334,
+            "th_mw": 6306.156,
+            "coal_g_per_kwh": 330.0,
+            "intensity_g_per_kwh": 869.305,
+            "emissions_kg": 14770735.42
+          },
+          {
+            "thermal_mw": 17030.945,
+            "th_mw": 4845.767,
+            "coal_g_per_kwh": 370.0,
+            "intensity_g_per_kwh": 1007.389,
+            "emissions_kg": 14170333.0
+          },
+          {
+            "thermal_mw": 16383.887,
+            "th_mw": 4198.709,
+            "coal_g_per_kwh": 370.0,
+            "intensity_g_per_kwh": 1017.915,
+            "emissions_kg": 13562689.344
+          },
+          {
+            "thermal_mw": 16428.17,
+            "th_mw": 4242.992,
+            "coal_g_per_kwh": 370.0,
+            "intensity_g_per_kwh": 1017.194,
+            "emissions_kg": 13604709.444
+          },
+          {
+            "thermal_mw": 17054.96,
+            "th_mw": 4869.781,
+            "coal_g_per_kwh": 370.0,
+            "intensity_g_per_kwh": 1006.998,
+            "emissions_kg": 14192622.987
+          },
+          {
+            "thermal_mw": 18342.326,
+            "th_mw": 6157.148,
+            "coal_g_per_kwh": 330.0,
+            "intensity_g_per_kwh": 871.047,
+            "emissions_kg": 14651927.785
+          },
+          {
+            "thermal_mw": 21535.024,
+            "th_mw": 9349.846,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 16416148.696
+          },
+          {
+            "thermal_mw": 25097.457,
+            "th_mw": 12912.279,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 19131791.425
+          },
+          {
+            "thermal_mw": 26180.875,
+            "th_mw": 13995.696,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 19957680.654
+          },
+          {
+            "thermal_mw": 25587.58,
+            "th_mw": 13402.402,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 19505412.31
+          },
+          {
+            "thermal_mw": 25183.983,
+            "th_mw": 12998.805,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 19197750.142
+          },
+          {
+            "thermal_mw": 24592.711,
+            "th_mw": 12407.533,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 18747023.565
+          },
+          {
+            "thermal_mw": 23161.081,
+            "th_mw": 10975.903,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 17655691.848
+          },
+          {
+            "thermal_mw": 23215.263,
+            "th_mw": 11030.085,
+            "coal_g_per_kwh": 300.0,
+            "intensity_g_per_kwh": 762.3,
+            "emissions_kg": 17696995.351
+          }
+        ]
+      },
+      "reduction_kg": 999212.683,
+      "reduction_t": 999.213,
+      "reduction_10kt": 0.099921,
+      "reduction_rate_pct": 0.2487,
+      "warnings": []
+    }
+  ],
+  "assumptions": [
+    "1 h 时间步长；功率 MW；煤耗与排放强度 g/kWh；排放量 kg。",
+    "有抽蓄场景：火电 = 负荷 - 水/风/光 - 抽蓄（正发电、负抽水）。",
+    "无抽蓄场景：火电 = 负荷 - 水/风/光。",
+    "抽蓄效率默认 0.75；低于 20% 额定功率的动作按 0 处理；SOC 首末均为 0.5。",
+    "未提供 SOC 时使用启发式调度，不等同于 NSGA-II 最优解。"
+  ],
+  "disclaimer": "本结果用于方案对比与教学演示，不构成电网调度指令或碳资产签发依据。"
+}

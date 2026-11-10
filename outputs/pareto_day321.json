@@ -1,0 +1,850 @@
+{
+  "ok": true,
+  "preference": "balanced",
+  "count": 100,
+  "ranges": {
+    "zt_f_mw": [
+      15024.52,
+      18611.172
+    ],
+    "emissions_kg": [
+      405046601.618,
+      412761063.421
+    ]
+  },
+  "compromise": {
+    "zt_f_mw": 17845.485,
+    "emissions_kg": 405702909.638,
+    "norm_peak": 0.786518,
+    "norm_carbon": 0.085075,
+    "score": 0.564204,
+    "role": "compromise"
+  },
+  "min_peak": {
+    "zt_f_mw": 15024.52,
+    "emissions_kg": 412750738.394,
+    "norm_peak": 0.0,
+    "norm_carbon": 0.998662,
+    "score": 0.500669,
+    "role": "min_peak"
+  },
+  "min_carbon": {
+    "zt_f_mw": 18611.172,
+    "emissions_kg": 405046601.618,
+    "norm_peak": 1.0,
+    "norm_carbon": 0.0,
+    "score": 0.5,
+    "role": "min_carbon"
+  },
+  "knee": {
+    "zt_f_mw": 17024.52,
+    "emissions_kg": 409333045.995,
+    "norm_peak": 0.557623,
+    "norm_carbon": 0.555638,
+    "score": 0.44337,
+    "role": "knee"
+  },
+  "points": [
+    {
+      "zt_f_mw": 15024.52,
+      "emissions_kg": 412750738.394,
+      "norm_peak": 0.0,
+      "norm_carbon": 0.998662,
+      "score": 0.500669,
+      "role": "min_peak"
+    },
+    {
+      "zt_f_mw": 15024.52,
+      "emissions_kg": 412761063.421,
+      "norm_peak": 0.0,
+      "norm_carbon": 1.0,
+      "score": 0.5,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 15192.43,
+      "emissions_kg": 412345582.83,
+      "norm_peak": 0.046815,
+      "norm_carbon": 0.946143,
+      "score": 0.503521,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 15417.302,
+      "emissions_kg": 411893625.203,
+      "norm_peak": 0.109512,
+      "norm_carbon": 0.887557,
+      "score": 0.501465,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 15506.749,
+      "emissions_kg": 411204854.869,
+      "norm_peak": 0.134451,
+      "norm_carbon": 0.798274,
+      "score": 0.533638,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 15510.433,
+      "emissions_kg": 411212439.978,
+      "norm_peak": 0.135478,
+      "norm_carbon": 0.799257,
+      "score": 0.532632,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 15623.518,
+      "emissions_kg": 410850003.429,
+      "norm_peak": 0.167008,
+      "norm_carbon": 0.752276,
+      "score": 0.540358,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 15623.518,
+      "emissions_kg": 410850003.429,
+      "norm_peak": 0.167008,
+      "norm_carbon": 0.752276,
+      "score": 0.540358,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 15623.633,
+      "emissions_kg": 410849943.228,
+      "norm_peak": 0.16704,
+      "norm_carbon": 0.752268,
+      "score": 0.540346,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 15624.45,
+      "emissions_kg": 410849637.827,
+      "norm_peak": 0.167267,
+      "norm_carbon": 0.752228,
+      "score": 0.540252,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 15624.45,
+      "emissions_kg": 410849637.827,
+      "norm_peak": 0.167267,
+      "norm_carbon": 0.752228,
+      "score": 0.540252,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 15624.49,
+      "emissions_kg": 410833068.977,
+      "norm_peak": 0.167279,
+      "norm_carbon": 0.75008,
+      "score": 0.54132,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 15624.769,
+      "emissions_kg": 410832958.189,
+      "norm_peak": 0.167356,
+      "norm_carbon": 0.750066,
+      "score": 0.541289,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 15624.769,
+      "emissions_kg": 410832958.189,
+      "norm_peak": 0.167356,
+      "norm_carbon": 0.750066,
+      "score": 0.541289,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 15625.145,
+      "emissions_kg": 410827590.9,
+      "norm_peak": 0.167461,
+      "norm_carbon": 0.74937,
+      "score": 0.541584,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 15625.345,
+      "emissions_kg": 410827537.43,
+      "norm_peak": 0.167517,
+      "norm_carbon": 0.749363,
+      "score": 0.54156,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 15625.446,
+      "emissions_kg": 410826942.515,
+      "norm_peak": 0.167545,
+      "norm_carbon": 0.749286,
+      "score": 0.541584,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 15625.446,
+      "emissions_kg": 410826942.515,
+      "norm_peak": 0.167545,
+      "norm_carbon": 0.749286,
+      "score": 0.541584,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16022.511,
+      "emissions_kg": 410692739.811,
+      "norm_peak": 0.278251,
+      "norm_carbon": 0.73189,
+      "score": 0.494929,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16022.748,
+      "emissions_kg": 410426135.228,
+      "norm_peak": 0.278317,
+      "norm_carbon": 0.697331,
+      "score": 0.512176,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16022.748,
+      "emissions_kg": 410426135.228,
+      "norm_peak": 0.278317,
+      "norm_carbon": 0.697331,
+      "score": 0.512176,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16025.442,
+      "emissions_kg": 410423539.144,
+      "norm_peak": 0.279069,
+      "norm_carbon": 0.696995,
+      "score": 0.511968,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16025.779,
+      "emissions_kg": 410429277.766,
+      "norm_peak": 0.279163,
+      "norm_carbon": 0.697738,
+      "score": 0.51155,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16282.677,
+      "emissions_kg": 409890707.424,
+      "norm_peak": 0.350789,
+      "norm_carbon": 0.627925,
+      "score": 0.510643,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16282.677,
+      "emissions_kg": 409890707.424,
+      "norm_peak": 0.350789,
+      "norm_carbon": 0.627925,
+      "score": 0.510643,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16282.677,
+      "emissions_kg": 409890707.424,
+      "norm_peak": 0.350789,
+      "norm_carbon": 0.627925,
+      "score": 0.510643,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16472.458,
+      "emissions_kg": 410111842.35,
+      "norm_peak": 0.403702,
+      "norm_carbon": 0.65659,
+      "score": 0.469854,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16680.563,
+      "emissions_kg": 409433967.584,
+      "norm_peak": 0.461724,
+      "norm_carbon": 0.56872,
+      "score": 0.484778,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16680.589,
+      "emissions_kg": 409432871.858,
+      "norm_peak": 0.461731,
+      "norm_carbon": 0.568578,
+      "score": 0.484846,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16680.603,
+      "emissions_kg": 409428640.382,
+      "norm_peak": 0.461735,
+      "norm_carbon": 0.568029,
+      "score": 0.485118,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16822.504,
+      "emissions_kg": 409389519.939,
+      "norm_peak": 0.501299,
+      "norm_carbon": 0.562958,
+      "score": 0.467872,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16822.504,
+      "emissions_kg": 409389519.939,
+      "norm_peak": 0.501299,
+      "norm_carbon": 0.562958,
+      "score": 0.467872,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16822.505,
+      "emissions_kg": 409387404.089,
+      "norm_peak": 0.501299,
+      "norm_carbon": 0.562684,
+      "score": 0.468009,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16822.506,
+      "emissions_kg": 409386766.946,
+      "norm_peak": 0.501299,
+      "norm_carbon": 0.562601,
+      "score": 0.46805,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16822.512,
+      "emissions_kg": 409368171.323,
+      "norm_peak": 0.501301,
+      "norm_carbon": 0.560191,
+      "score": 0.469254,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16822.525,
+      "emissions_kg": 409368104.756,
+      "norm_peak": 0.501305,
+      "norm_carbon": 0.560182,
+      "score": 0.469257,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16822.525,
+      "emissions_kg": 409368104.756,
+      "norm_peak": 0.501305,
+      "norm_carbon": 0.560182,
+      "score": 0.469257,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16822.547,
+      "emissions_kg": 409365298.698,
+      "norm_peak": 0.501311,
+      "norm_carbon": 0.559818,
+      "score": 0.469435,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16822.555,
+      "emissions_kg": 409363755.239,
+      "norm_peak": 0.501313,
+      "norm_carbon": 0.559618,
+      "score": 0.469534,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16822.555,
+      "emissions_kg": 409363755.239,
+      "norm_peak": 0.501313,
+      "norm_carbon": 0.559618,
+      "score": 0.469534,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16822.672,
+      "emissions_kg": 409361731.933,
+      "norm_peak": 0.501346,
+      "norm_carbon": 0.559356,
+      "score": 0.469649,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16822.778,
+      "emissions_kg": 409360166.121,
+      "norm_peak": 0.501375,
+      "norm_carbon": 0.559153,
+      "score": 0.469736,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16822.949,
+      "emissions_kg": 409359867.939,
+      "norm_peak": 0.501423,
+      "norm_carbon": 0.559114,
+      "score": 0.469731,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16823.15,
+      "emissions_kg": 409343604.538,
+      "norm_peak": 0.501479,
+      "norm_carbon": 0.557006,
+      "score": 0.470758,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16824.44,
+      "emissions_kg": 409387625.682,
+      "norm_peak": 0.501838,
+      "norm_carbon": 0.562712,
+      "score": 0.467725,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16828.07,
+      "emissions_kg": 408572172.863,
+      "norm_peak": 0.502851,
+      "norm_carbon": 0.457008,
+      "score": 0.520071,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16828.527,
+      "emissions_kg": 408570198.411,
+      "norm_peak": 0.502978,
+      "norm_carbon": 0.456752,
+      "score": 0.520135,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 16837.593,
+      "emissions_kg": 408563287.396,
+      "norm_peak": 0.505506,
+      "norm_carbon": 0.455856,
+      "score": 0.519319,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17024.52,
+      "emissions_kg": 407977640.788,
+      "norm_peak": 0.557623,
+      "norm_carbon": 0.379941,
+      "score": 0.531218,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17024.52,
+      "emissions_kg": 407977640.788,
+      "norm_peak": 0.557623,
+      "norm_carbon": 0.379941,
+      "score": 0.531218,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17024.52,
+      "emissions_kg": 409333045.995,
+      "norm_peak": 0.557623,
+      "norm_carbon": 0.555638,
+      "score": 0.44337,
+      "role": "knee"
+    },
+    {
+      "zt_f_mw": 17028.712,
+      "emissions_kg": 407979233.865,
+      "norm_peak": 0.558792,
+      "norm_carbon": 0.380147,
+      "score": 0.53053,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17528.608,
+      "emissions_kg": 407519803.177,
+      "norm_peak": 0.698169,
+      "norm_carbon": 0.320593,
+      "score": 0.490619,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17528.993,
+      "emissions_kg": 407514191.024,
+      "norm_peak": 0.698276,
+      "norm_carbon": 0.319865,
+      "score": 0.490929,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17530.481,
+      "emissions_kg": 407509882.073,
+      "norm_peak": 0.698691,
+      "norm_carbon": 0.319307,
+      "score": 0.491001,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17532.724,
+      "emissions_kg": 407499668.461,
+      "norm_peak": 0.699316,
+      "norm_carbon": 0.317983,
+      "score": 0.49135,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17532.724,
+      "emissions_kg": 407499668.461,
+      "norm_peak": 0.699316,
+      "norm_carbon": 0.317983,
+      "score": 0.49135,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17535.022,
+      "emissions_kg": 407494025.152,
+      "norm_peak": 0.699957,
+      "norm_carbon": 0.317251,
+      "score": 0.491396,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17558.392,
+      "emissions_kg": 407489320.673,
+      "norm_peak": 0.706473,
+      "norm_carbon": 0.316642,
+      "score": 0.488443,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17558.986,
+      "emissions_kg": 407465582.879,
+      "norm_peak": 0.706638,
+      "norm_carbon": 0.313564,
+      "score": 0.489899,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17558.986,
+      "emissions_kg": 407465582.879,
+      "norm_peak": 0.706638,
+      "norm_carbon": 0.313564,
+      "score": 0.489899,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17558.986,
+      "emissions_kg": 407465582.879,
+      "norm_peak": 0.706638,
+      "norm_carbon": 0.313564,
+      "score": 0.489899,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17558.986,
+      "emissions_kg": 407472442.117,
+      "norm_peak": 0.706638,
+      "norm_carbon": 0.314454,
+      "score": 0.489454,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17730.887,
+      "emissions_kg": 407060088.823,
+      "norm_peak": 0.754566,
+      "norm_carbon": 0.261002,
+      "score": 0.492216,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17730.887,
+      "emissions_kg": 407060088.823,
+      "norm_peak": 0.754566,
+      "norm_carbon": 0.261002,
+      "score": 0.492216,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17730.902,
+      "emissions_kg": 406845340.874,
+      "norm_peak": 0.754571,
+      "norm_carbon": 0.233165,
+      "score": 0.506132,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17731.238,
+      "emissions_kg": 406794171.28,
+      "norm_peak": 0.754664,
+      "norm_carbon": 0.226532,
+      "score": 0.509402,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17731.293,
+      "emissions_kg": 406722401.211,
+      "norm_peak": 0.75468,
+      "norm_carbon": 0.217228,
+      "score": 0.514046,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17731.293,
+      "emissions_kg": 406722401.211,
+      "norm_peak": 0.75468,
+      "norm_carbon": 0.217228,
+      "score": 0.514046,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17731.524,
+      "emissions_kg": 406713725.807,
+      "norm_peak": 0.754744,
+      "norm_carbon": 0.216104,
+      "score": 0.514576,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17732.24,
+      "emissions_kg": 406708185.351,
+      "norm_peak": 0.754944,
+      "norm_carbon": 0.215386,
+      "score": 0.514835,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17732.672,
+      "emissions_kg": 406702727.524,
+      "norm_peak": 0.755064,
+      "norm_carbon": 0.214678,
+      "score": 0.515129,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17733.68,
+      "emissions_kg": 406651931.693,
+      "norm_peak": 0.755345,
+      "norm_carbon": 0.208094,
+      "score": 0.518281,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17803.288,
+      "emissions_kg": 406549049.452,
+      "norm_peak": 0.774753,
+      "norm_carbon": 0.194757,
+      "score": 0.515245,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17803.288,
+      "emissions_kg": 406549049.452,
+      "norm_peak": 0.774753,
+      "norm_carbon": 0.194757,
+      "score": 0.515245,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17817.589,
+      "emissions_kg": 406534601.802,
+      "norm_peak": 0.77874,
+      "norm_carbon": 0.192885,
+      "score": 0.514188,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17839.808,
+      "emissions_kg": 406428383.218,
+      "norm_peak": 0.784935,
+      "norm_carbon": 0.179116,
+      "score": 0.517975,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17839.808,
+      "emissions_kg": 406428383.218,
+      "norm_peak": 0.784935,
+      "norm_carbon": 0.179116,
+      "score": 0.517975,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17839.808,
+      "emissions_kg": 406428383.218,
+      "norm_peak": 0.784935,
+      "norm_carbon": 0.179116,
+      "score": 0.517975,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17840.033,
+      "emissions_kg": 406417907.131,
+      "norm_peak": 0.784998,
+      "norm_carbon": 0.177758,
+      "score": 0.518622,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17840.033,
+      "emissions_kg": 406417907.131,
+      "norm_peak": 0.784998,
+      "norm_carbon": 0.177758,
+      "score": 0.518622,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17840.181,
+      "emissions_kg": 406417308.01,
+      "norm_peak": 0.785039,
+      "norm_carbon": 0.17768,
+      "score": 0.518641,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17843.791,
+      "emissions_kg": 405709770.778,
+      "norm_peak": 0.786045,
+      "norm_carbon": 0.085964,
+      "score": 0.563995,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17845.485,
+      "emissions_kg": 405702909.638,
+      "norm_peak": 0.786518,
+      "norm_carbon": 0.085075,
+      "score": 0.564204,
+      "role": "compromise"
+    },
+    {
+      "zt_f_mw": 17849.427,
+      "emissions_kg": 405701762.785,
+      "norm_peak": 0.787617,
+      "norm_carbon": 0.084926,
+      "score": 0.563728,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17849.427,
+      "emissions_kg": 405701762.785,
+      "norm_peak": 0.787617,
+      "norm_carbon": 0.084926,
+      "score": 0.563728,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17849.427,
+      "emissions_kg": 405701762.785,
+      "norm_peak": 0.787617,
+      "norm_carbon": 0.084926,
+      "score": 0.563728,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17851.996,
+      "emissions_kg": 405691099.024,
+      "norm_peak": 0.788333,
+      "norm_carbon": 0.083544,
+      "score": 0.564061,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 17852.541,
+      "emissions_kg": 405694943.947,
+      "norm_peak": 0.788485,
+      "norm_carbon": 0.084042,
+      "score": 0.563736,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 18021.559,
+      "emissions_kg": 405663653.34,
+      "norm_peak": 0.835609,
+      "norm_carbon": 0.079986,
+      "score": 0.542202,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 18607.777,
+      "emissions_kg": 405067566.911,
+      "norm_peak": 0.999053,
+      "norm_carbon": 0.002718,
+      "score": 0.499114,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 18608.068,
+      "emissions_kg": 405054573.177,
+      "norm_peak": 0.999135,
+      "norm_carbon": 0.001033,
+      "score": 0.499916,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 18608.567,
+      "emissions_kg": 405053493.946,
+      "norm_peak": 0.999274,
+      "norm_carbon": 0.000893,
+      "score": 0.499916,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 18608.57,
+      "emissions_kg": 405053339.505,
+      "norm_peak": 0.999275,
+      "norm_carbon": 0.000873,
+      "score": 0.499926,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 18608.785,
+      "emissions_kg": 405053326.172,
+      "norm_peak": 0.999334,
+      "norm_carbon": 0.000872,
+      "score": 0.499897,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 18608.785,
+      "emissions_kg": 405053326.172,
+      "norm_peak": 0.999334,
+      "norm_carbon": 0.000872,
+      "score": 0.499897,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 18609.185,
+      "emissions_kg": 405047325.377,
+      "norm_peak": 0.999446,
+      "norm_carbon": 9.4e-05,
+      "score": 0.50023,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 18609.251,
+      "emissions_kg": 405047470.083,
+      "norm_peak": 0.999464,
+      "norm_carbon": 0.000113,
+      "score": 0.500212,
+      "role": "normal"
+    },
+    {
+      "zt_f_mw": 18611.172,
+      "emissions_kg": 405046601.618,
+      "norm_peak": 1.0,
+      "norm_carbon": 0.0,
+      "score": 0.5,
+      "role": "min_carbon"
+    },
+    {
+      "zt_f_mw": 18611.172,
+      "emissions_kg": 405046882.642,
+      "norm_peak": 1.0,
+      "norm_carbon": 3.6e-05,
+      "score": 0.499982,
+      "role": "normal"
+    }
+  ],
+  "interpretation": "min_peak 追求最小调峰深度；min_carbon 追求最低排放；compromise 按偏好权重在归一化目标上取综合最优；knee 是前沿拐点。"
+}
