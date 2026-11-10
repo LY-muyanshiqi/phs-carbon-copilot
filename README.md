@@ -36,6 +36,13 @@ python cli.py --input examples/input_year.json --output ../../outputs/demo_year.
 | 全年耗时 | 约 120 ms（普通笔记本） |
 | 依赖 | Python 3.9+，核心计算仅标准库 |
 
+## 成果文件
+
+- [实践报告 PDF（6 页）](outputs/蓄能碳效参谋_实践报告.pdf)
+- [实践报告 DOCX](outputs/蓄能碳效参谋_实践报告.docx)
+- [答辩 PPTX（10 页）](outputs/蓄能碳效参谋_答辩.pptx)
+- [一页纸](docs/one_pager.md) · [演示脚本](docs/demo_script.md)
+
 ## 目录
 
 ```
